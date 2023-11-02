@@ -1,4 +1,4 @@
-#include "CANMsg.h"
+#include "CANMsgOutput.h"
 
 tCANMSG_Results tCANMSG_Results;
 

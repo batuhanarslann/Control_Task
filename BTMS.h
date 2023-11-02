@@ -1,16 +1,16 @@
 #ifndef _BTMS_H_
 #define _BTMS_H_
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include "Libraries.h"
+
+/*typedef struct tsBTMS_Results{
+	uint16_t SumCellValue;
+} tBTMS_Results;*/
 
 
-typedef struct 
+//extern tBTMS_Results BTMS_Results;
 
-extern bool BTMS_IgnitionCheck(bool input);
-
-
+extern uint8_t CellMinTemp(uint8_t CellValue);
+extern bool BTMS_WakeUpStartandECPFan(bool input);
 
 #endif //_BTMS_H_
